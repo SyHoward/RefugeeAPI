@@ -1,0 +1,119 @@
+body {
+    font-family: garamond;
+    background-color: #faf3f0;
+}
+
+.wrapper {
+    max-width: 80%;
+    min-height: 100%;
+    margin: auto;
+}
+.controls {
+    padding: 10px;
+}
+
+nav button {
+    border-radius: 15%;
+}
+
+.prev {
+    float: left;
+    border: 1px solid black;
+}
+
+.prev:hover {
+    border: 3px solid black;
+    background-color: #D4E2D4;
+}
+
+.next {
+    float: right;
+    border: 1px solid black;
+}
+
+.next:hover {
+    border: 3px solid black;
+    background-color: #D4E2D4;
+}
+
+.state {
+    background-color: #D4E2D4;
+}
+
+section {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+}
+
+section div {
+    border: solid lightblue 2px;
+    max-width: 200px;
+    max-height: 200px;
+    overflow-y: scroll;
+    margin: 10px;
+    padding: 10px;
+    align-items: center;
+    transition: transform .2s;
+    font-size: 10px;
+    background-color: #96c8fb;
+    background-image: linear-gradient(45deg, lightblue, pink, white, pink, lightblue );
+}
+
+section div:hover {
+    transform: scale(2);
+}
+
+h1 {
+    font-size: 50px;
+    text-align: center;
+    color: #FFCACC;
+    text-shadow: 1px 2px #DBC4F0;
+}
+
+h2 {
+    text-align: center;
+    color: #000;
+    margin-top: 10px;
+}
+
+p {
+    color: #000;
+    text-align: left;
+    margin: -10px, 0px, 10px, auto;
+}
+
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px #D4E2D4;
+    border-radius: 5px;
+}
+
+::-webkit-scrollbar-thumb {
+    background: lightblue;
+    border-radius: 5px;
+}
+
+nav {
+    color: #000;
+    margin-bottom: 50px;
+}
+
+footer {
+    position: fixed;
+    bottom: 0;
+    height: 15px;
+    padding: 10px;
+}
+
+a {
+    color: black
+}
+
+a:hover {
+    box-shadow: #000 inset;
+    color: #FFCACC;
+}

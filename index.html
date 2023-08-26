@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="bathrooms.css">
+    <title>Trans-Safe Bathrooms</title>
+</head>
+<body>
+    <h1>Safe Bathroom Search</h1>
+    <div class="wrapper">
+        
+        <div class="controls">
+            <form action="">
+                <p>
+                    <label for="state">State: </label>
+                    <input type="text" id='state' class="state" required>
+                </p>
+                <p>
+                    <label for="unisex">Unisex</label>
+                    <input type="checkbox" id="unisex" class="unisex" value="false">
+                </p>
+                <p>
+                    <label for="ADA">ADA</label>
+                    <input type="checkbox" id="ADA" class="ADA" value="false">
+                </p>
+                <button class="submit">Find 'em</button>
+            </form>
+        </div>
+        <div class="results">
+            <section></section>
+            <nav>
+                <button class="prev">Last 10</button>
+                <button class="next">Keep going</button>
+            </nav>
+            
+        </div>
+    </div>
+    <script type="text/javascript" src="bathrooms.js"></script>
+    
+<footer class="links">
+    <a href="https://www.refugerestrooms.org/restrooms/new" target="_blank" id="links">Add Bathrooms</a>
+    <a href="https://www.patreon.com/refugerestrooms" target="_blank" class="website" id="links">RefugeRestrooms Patreon</a>
+</footer>
+
+</body>
+
+</html>
